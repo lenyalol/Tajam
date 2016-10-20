@@ -1,0 +1,130 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	header 
+		.logo
+			display: block
+			text-align: center
+		.navigation
+			float: none
+			display: block
+			text-align: center
+		.header_main
+			padding-top: 55px
+	.team .item
+		margin-bottom: 20px
+	.works
+		h2
+			float: none
+			text-align: left
+		a.see_all 
+			float: left
+	.works .container-fluid .work
+		&:nth-child(4),
+		&:nth-child(5),
+		&:nth-child(8),
+		&:nth-child(9),
+		&:nth-child(11),
+		&:nth-child(12)
+			background-color: #333
+		&:nth-child(3),
+		&:nth-child(10),
+		&:nth-child(11)
+			background-color: #666
+	.contact 
+		h3
+			text-align: center
+		.brands .brand img
+			width: 100%
+	footer
+		.our_studio
+			padding-top: 20px
+			a
+				font-size: 1.2rem
+		.col-xs-12
+			h3
+				margin: 20px 0 15px 
+		button
+			font-size: 2.8rem
+		.links
+			float: none
+			text-align: center
+		.copy 
+			margin-top: 20px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	header .header_main
+		padding-top: 100px
+	.contact 
+		.brands .brand img
+			width: auto
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	header .header_main
+		padding-top: 170px
+	.expertise .item
+		min-height: 450px
+	.works .container-fluid .work
+		&:nth-child(7),
+		&:nth-child(9),
+		&:nth-child(11)
+			background-color: #333
+		&:nth-child(8),
+		&:nth-child(10),
+		&:nth-child(12)
+			background-color: #666
+	.contact h3
+		text-align: center
+	footer 
+		button
+			margin-left: 0
+			font-size: 2.8rem
+		.social li
+			margin-right: 2px
+			width: 30px
+			height: 30px
+			a
+				line-height: 28px
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.expertise .item
+		min-height: auto
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
